@@ -39,7 +39,7 @@ export HUGGINGFACE_TOKEN=your_token_here
 set HUGGINGFACE_TOKEN=your_token_here
 ```
 ### Step5 Change the directory path for model download
-The `model_path` variable contains a directory path where it stores the downloaded model. Please change it your local repository and also, please update main() of smae variable before triggering step6
+The `model_path` variable contains a directory path where it stores the downloaded model. Please change it your local repository and also, please update main() of same variable before triggering step6
 
 ### Step6 Run the App
 
