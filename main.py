@@ -20,7 +20,7 @@ hf_token = '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'
 model_path = hf_hub_download(
     repo_id="MaziyarPanahi/Phi-3.5-mini-instruct-GGUF",
     filename="Phi-3.5-mini-instruct.Q4_K_S.gguf",
-    local_dir="/content/models/phi3.5",
+    local_dir="model",
     local_dir_use_symlinks=False,
     token='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'
 )
@@ -96,7 +96,7 @@ def process_pdf(pdf_file):
     return metadata
 
 def main():
-    model_path = "/content/models/phi3.5/Phi-3.5-mini-instruct.Q4_K_S.gguf"
+    model_path = "model/Phi-3.5-mini-instruct.Q4_K_S.gguf"
     global model
     model = load_model(model_path)
     #Gradio interface
