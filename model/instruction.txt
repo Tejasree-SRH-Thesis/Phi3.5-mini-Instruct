@@ -1,0 +1,6 @@
+## Download the phi 3.5 model Model:
+
+Phi-3.5-mini-instruct.Q4_K_S.gguf
+
+## From the following link:
+https://huggingface.co/MaziyarPanahi/Phi-3.5-mini-instruct-GGUF/tree/main
